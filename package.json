@@ -15,21 +15,33 @@
     "single sign on",
     "registration"
   ],
-  "author": "Sergej Saveljev <sergej@eyrini.ru>",
+  "author": {
+    "name": "Sergej Saveljev",
+    "email": "sergej@eyrini.ru"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/atomoc/nodebb-plugin-sso-vk/issues"
   },
-  "readme": "",
+  "readme": "# NodeBB VKontakte SSO\n\nNodeBB Plugin that allows users to login/register via their Vkontakte account.\n\n## Installation\n\n    npm install nodebb-plugin-sso-vk\n    \n## Configuration\n \n1. Create a **VKontakte OAuth Client** via the [API Console](http://vk.com/dev)\n2. Locate your Client ID and Password\n3. The appropriate \"Callback URL\" is your NodeBB's URL with `/auth/vkontakte/callback` appended to it.\n",
   "readmeFilename": "README.md",
   "dependencies": {
     "passport-vkontakte": "^0.4.0"
   },
   "nbbpm": {
-    "compatibility": "^0.8.0"
+    "compatibility": "^1.0.0"
   },
   "homepage": "https://github.com/atomoc/nodebb-plugin-sso-vk",
   "maintainers": [
-    "atomoc <atomoc@gmail.com>"
-  ]
+    {
+      "name": "atomoc",
+      "email": "atomoc@gmail.com"
+    }
+  ],
+  "_id": "nodebb-plugin-sso-vk@2.0.7",
+  "dist": {
+    "shasum": "753018f770bea1538bccd66b7d3953be75a381d6"
+  },
+  "_from": "nodebb-plugin-sso-vk@",
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-sso-vk/-/nodebb-plugin-sso-vk-2.0.7.tgz"
 }
